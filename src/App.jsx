@@ -28,8 +28,8 @@ const Square = () => {
     <div className="container">
       <div style={{width:size, height:size, backgroundColor:'blue'}}></div>
       <div className="buttons">
-        <button onClick={increaseSize}>+</button>
-        <button onClick={decreaseSize}>-</button>
+        <button onClick={increaseSize}>Increase</button>
+        <button onClick={decreaseSize}>Decrease</button>
       </div>
     </div>
   );
